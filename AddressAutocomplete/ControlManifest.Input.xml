@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="AB" constructor="AddressAutocomplete" version="0.0.9" display-name-key="Google Address Autocomplete" description-key="Use this control to enable address autocomplete feature powered by Google Places API" control-type="standard">
+    <property name="value" display-name-key="Full Address" description-key="Full Address" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="googleapikey" display-name-key="Google Api Key" description-key="Enter valid Google API Key to enable address autocomplete functionality" of-type="SingleLine.Text" usage="input" required="true" />
+    <property name="street" display-name-key="Street" description-key="Street" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="city" display-name-key="City" description-key="City" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="county" display-name-key="County" description-key="County" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="state" display-name-key="State/Region" description-key="State/Region" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="zipcode" display-name-key="Zip Code" description-key="Zip Code" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="country" display-name-key="Country" description-key="Country" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/AddressAutocomplete.css" order="1" />
+    </resources>
+  </control>
+</manifest>

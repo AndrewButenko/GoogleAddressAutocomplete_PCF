@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="AB" constructor="AddressAutocomplete" version="0.0.9" display-name-key="Google Address Autocomplete" description-key="Use this control to enable address autocomplete feature powered by Google Places API" control-type="standard">
+  <control namespace="AB" constructor="AddressAutocomplete" version="0.0.10" display-name-key="Google Address Autocomplete" description-key="Use this control to enable address autocomplete feature powered by Google Places API" control-type="standard">
     <property name="value" display-name-key="Full Address" description-key="Full Address" of-type="SingleLine.Text" usage="bound" required="true" />
     <property name="googleapikey" display-name-key="Google Api Key" description-key="Enter valid Google API Key to enable address autocomplete functionality" of-type="SingleLine.Text" usage="input" required="true" />
     <property name="street" display-name-key="Street" description-key="Street" of-type="SingleLine.Text" usage="bound" required="true" />

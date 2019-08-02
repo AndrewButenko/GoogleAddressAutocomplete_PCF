@@ -81,6 +81,7 @@ export class AddressAutocomplete implements ComponentFramework.StandardControl<I
                             this.street = addressPiece + streetNumber;
                             break;
                         case "locality":
+                        case "postal_town":
                             this.city = addressPiece;
                             break;
                         case "administrative_area_level_2":
